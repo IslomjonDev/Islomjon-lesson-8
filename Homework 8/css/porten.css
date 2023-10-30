@@ -1,0 +1,247 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.topline{
+    display: flex;
+    justify-content: space-around;
+    width: 1920px;
+    height: 44px;
+    flex-shrink: 0;
+    background: #000;
+}
+.topline p {
+    padding-top: 1vh;
+    color: var(--gray, #f1f1f1);
+    font-family: PT Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;  
+}
+.secondline  {
+    display: flex;
+    justify-content: space-around;
+    width: 1920px;
+    height: 80px;
+    flex-shrink: 0;
+    background: #0F0F0F;
+}
+.secondline h1 {
+    color: #FFF;
+    font-family: Post No Bills Jaffna;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.button button {
+    margin: 2vh;
+    color: rgb(255, 255, 255);
+    font-family: PT Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    background-color: rgb(0, 0, 0);
+}
+.button :hover{
+    background-color: #f1f1f1;
+    color: #000;
+    cursor: pointer;
+    border: solid black;
+    font-size: 17px;
+    transition: 0.5s;
+}
+.button img {
+    padding-left:4vh ;
+}
+.home {
+    width: 1920px;
+    height: 810px;
+    flex-shrink: 0;
+   background-image: url(../images/bratan.png);
+}
+.paragraph  {
+    top: 7vh;
+    margin-left: auto;
+    margin-right: auto ;
+    box-sizing: border-box;
+    width: 320px;
+    height: 320px;
+    flex-shrink: 0;
+    border: 4px solid #FFF;
+}
+.lorem  p {
+    margin-top: 8vh;
+    color: #FFF;
+    text-align: center;
+    font-family: PT Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    text-transform: uppercase;
+}
+.paragraph h1 {
+    padding-top: 10vh;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.paragraph h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15vh;
+    color: #FFF;
+    text-align: center;
+    font-family: PT Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    text-transform: uppercase;
+}
+.body {
+    width: 100%;
+    display: flex;
+}
+
+.body h1{
+    padding-top: 7vh;
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.image {
+    padding-top: 15vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.line {
+    width: 110.769px;
+    height: 1px;
+    color: #FFF;
+}
+.words {
+    display: flex;
+    justify-content: space-around;
+
+}
+.words p {
+    padding-top: 8vh;
+    color: var(--white, #FFF);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.border1{
+    width: 960px;
+    height: 730px ;
+    background-color: #000;
+}
+.porten {
+    background-image: url(../images/Rectangle\ 8.png);
+    width: 960px;
+    height: 730px;
+    flex-shrink: 0;
+
+
+}
+.porten h1 {
+    padding-top: 50vh;
+    color: var(--vhwhite, #FFF);
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.porten p {
+    margin-top: 5vh;
+    margin-left: 45vh;
+    padding: 12px 14px ;
+    border: 1px solid var(--white, #FFF);
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--white, #FFF);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+}
+.group {
+display: flex;
+}
+.class img {
+    width: 960px;
+    height: 600px;
+    flex-shrink: 0;
+}
+.foterwords {
+    width: 960px;
+    height: 600px;
+    flex-shrink: 0;
+    background-color: #000;
+}
+.foterwords h1 {
+    margin-top: 10vh;
+    color: var(--white, #FFF);
+text-align: center;
+font-family: Playfair Display;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+}
+.foterwords p {
+    margin-top: 10vh;
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: PT Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 21px */
+}
+.foterwords h4 {
+    border: 1px solid var(--white, #FFF);
+    display: inline-flex;
+    margin-left: 32vh;
+    padding: 12px 28px;
+    align-items: center;
+    gap: 10px;
+    margin-top: 8vh;
+    color: var(--white, #FFF);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+}
